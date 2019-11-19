@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+<!-- MY CSS LINK -->
+<link rel="stylesheet" type="text/css" href="file.css">
+
+    <title>KampungSite</title>
+  </head>
+  <!-- Margin Top sebesar 5 -->
+  <body class="mt-5">
+   
+
+
+   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">KampungSite</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">About</a>
+      <a class="nav-item nav-link" href="#">Portfolio</a>
+      <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+    </div>
+  </div>
+</div>
+</nav>
+
+
+
+ <div class="jumbotron jumbotron-fluid">
+  <div class="container text-center">
+    <!-- mengganti width yang awalnya 230 tapi jika dikecilkan dia fix besarnya tetap maka harus diubah kedal persen agar batas besarnya ketika dikecilkan kita ganti 25% -->
+    <!-- penambahan img-thumbnail agar di proile tersebut ada bordernya -->
+    <img src="img/Muharram.png" width="25%" class="rounded-circle img-thumbnail">
+    <h1 class="display-4">Muharram_25</h1>
+    <p class="lead">Universitas Maritim Raja Ali Haji</p>
+    <p class="lead">Teknik Informatika</p>
+  </div>
+</div>
+
+<!-- layout dan grid -->
+<!-- penambahan section agar dapat membagikan atau membungkus bagian agar bisa dikenali seperti bagian dari about cara cepat tulis section yaitu section#about.about lalu tekan Tabs-->
+<section id="about" class="about">
+<div class="container">
+  <div class="row mb-4">
+    <div class="col text-center">
+      <h2>About</h2>
+    </div>
+  </div>
+
+<!-- penambahan justify-content-center agar penulisan yang dah diubah bagian -md-5 agar ketengah -->
+
+  <div class="row justify-content-center">
+    <!-- penambahan -md-5 dibagian col itu agar mengubah besar lebarnya dengan mengubah berarapa besar col nya -->
+    <div class="col-md-5 text-justify">
+      <p>Photo math adalah Kalkulator yang dikembangkan menjadi  Aplikasi Software. Photo math yang lebih simpel dalam menghitung dibandingkan dengan Kalkulator. Dengan Photo math kita sebagai User hanya memfoto Objek perhitungan secara otomatis dapat melakukan perhitungan. Dimana dalam pengerjaannya Photomath secara otomatis mengubah foto tersebut menjadi angka dan melakukan perhitungan. 
+      Maka dari itu aplikasi ini sangat berguna di masyarakat, karena kemudahannya dalam menerapkanny dan lebih cepat dan efesien dalam membuat pekerjaan. Tapi saya sebagai mahasiswa dalam kekurangan aplikasi ini yaitu Kualitas sebagai manusia menurun karena tidak ada usaha dalam melakukan perhitungan.
+      </p>
+    </div>
+    <div class="col-md-5 text-justify">
+      <p>Keunggulan aplikasi cuaca BMKG dengan aplikasi sejenisnya, selain masyarakat luas dapat mengakses berbagai informasi cuaca harian kota-kota yang diinginkan, masyarakat juga dapat mengetahui informasi peringatan dini cuaca yang dapat diakses di semua propinsi di indonesia. Skalanya pun tidak main-main, bisa sampai hingga ke tingkat kecamatan.  Aplikasi tersebut i dapat menjawab salah satu kebutuhan di sektor modern serta perkembangan teknologi komunikasi yang semakin maju dan pesat.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+<section id="portfolio" class="portfolio pb-4">
+<div class="container">
+  <!-- penambahan mb dan pt agar memberikan jarak portfolio antara gammbar -->
+  <div class="row mb-4 pt-4">
+    <div class="col text-center">
+      <h2>Portfolio</h2>
+    </div>
+  </div>
+  
+
+
+  <!-- buat garis digambar gambar dan 3 kolom untuk image-->
+  <div class="row mb-4">
+    <!-- md = medium ukuran juka diperkecil webnya agar tampilannya bagus jika diperkecil -->
+    <!-- lg=large, sm=kecil,xs=extra smole -->
+    <div class="col-md">
+      <!-- bikin komponen secara manual bagian komponen (card) -->
+      <div class="card">
+        <img src="img/thumbs/1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Komputer adalah alat yang dipakai untuk mengolah data menurut prosedur yang telah dirumuskan. Kata computer pada awalnya dipergunakan untuk menggambarkan orang yang perkerjaannya melakukan perhitungan aritmetika, dengan atau tanpa alat bantu, tetapi arti kata ini kemudian dipindahkan kepada mesin itu sendiri.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md">
+      <!-- bikin komponen secara manual bagian komponen (card) -->
+      <div class="card">
+        <img src="img/thumbs/2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Koding adalah sebuah sebutan dari pada programing/menulis program. Dalam hal ini yang dimagsud dengan koding adalah menulis sebuah script menggunakan bahasa perograman tertentu dengan aturan tertentu sehingga menghasilkan sebuah karya.</p>
+        </div>
+      </div>
+    </div>
+  <div class="col-md">
+      <!-- bikin komponen secara manual bagian komponen (card) -->
+      <div class="card">
+        <img src="img/thumbs/3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Laptop atau komputer jinjing adalah komputer bergerak yang berukuran relatif kecil dan ringan, beratnya berkisar dari 1–6 kg, tergantung pada ukuran, bahan, dan spesifikasi laptop tersebut.</p>
+        </div>
+      </div>
+    </div>      
+  </div>
+
+  <div class="row mb-4">
+    <div class="col-md">
+      <!-- bikin komponen secara manual bagian komponen (card) -->
+      <div class="card">
+        <img src="img/thumbs/4.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Komputer adalah alat yang dipakai untuk mengolah data menurut prosedur yang telah dirumuskan. Kata computer pada awalnya dipergunakan untuk menggambarkan orang yang perkerjaannya melakukan perhitungan aritmetika, dengan atau tanpa alat bantu, tetapi arti kata ini kemudian dipindahkan kepada mesin itu sendiri.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md">
+      <!-- bikin komponen secara manual bagian komponen (card) -->
+      <div class="card">
+        <img src="img/thumbs/5.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Koding adalah sebuah sebutan dari pada programing/menulis program. Dalam hal ini yang dimagsud dengan koding adalah menulis sebuah script menggunakan bahasa perograman tertentu dengan aturan tertentu sehingga menghasilkan sebuah karya.</p>
+        </div>
+      </div>
+    </div>
+  <div class="col-md">
+      <!-- bikin komponen secara manual bagian komponen (card) -->
+      <div class="card">
+        <img src="img/thumbs/6.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Laptop atau komputer jinjing adalah komputer bergerak yang berukuran relatif kecil dan ringan, beratnya berkisar dari 1–6 kg, tergantung pada ukuran, bahan, dan spesifikasi laptop tersebut.</p>
+        </div>
+      </div>
+    </div>      
+  </div>
+</div>
+</section>
+
+
+
+<sectin id="contact" class="contact mb-5">
+<div class="container">
+  <div class="row mb-4 pb-4">
+    <div class="col text-center">
+      <h2>Contact Us</h2>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col-lg-4">
+      <!-- Penambahan Card -->
+      <div class="card text-white bg-primary mb-3 text-center">
+        <div class="card-body">
+          <h5 class="card-title">Contact Us</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+      </div>
+      <ul class="list-group">
+        <li class="list-group-item"><h1>Location</h1></li>
+        <li class="list-group-item">My Office KampungSite</li>
+        <li class="list-group-item">Kawal Kp. Jeropet1</li>
+        <li class="list-group-item">Kepulauan Riau, Indonesia</li>
+      </ul>
+    </div>
+
+<!-- Membuat Form -->
+<!-- Forms -->
+    <div class="col-lg-6">
+      <form>
+        <div class="form-group">
+          <label for="nama">Nama</label>
+          <input type="text" class="form-control" id="nama">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+          <label for="Telp">No Telp</label>
+          <input type="text" class="form-control" id="Telp">
+        </div>
+        <div class="form-group">
+          <label for="Pesan">NamaPesan</label>
+          <textarea name="Pesan" id="Pesan" class="form-control"></textarea>
+        </div>
+        <!-- Membuat tombol di form -->
+        <div class="form-group">
+          <button type="button" class="btn btn-primary">Kirim Pesan</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>
+</section>
+
+
+<!-- membuat footer -->
+<footer class="bg-dark text-white">
+  <div class="container">
+    <div class="row pt-3">
+      <div class="col text-center">
+        <p>Copyright 2019.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
+
